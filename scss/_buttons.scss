@@ -12,6 +12,7 @@
   vertical-align: middle;
   user-select: none;
   clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+  -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
   @include button-size(
     $btn-padding-y,
     $btn-padding-x,

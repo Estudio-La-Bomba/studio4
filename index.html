@@ -2,12 +2,126 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Studio 4</title>
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Tendo como propósito oferecer o melhor em bem estar aos seus clientes, o Studio 4 tinha a necessidade de informar visualmente aos seus clientes que é a melhor opção quando o assunto é atividade física e saúde. Dentro das características encontradas nos serviços do Studio, foi desenvolvida uma nova identidade visual que transmite melhor ainda toda a estrutura oferecida."
+    />
+
+    <!-- Recommended favicon format -->
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.png" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon" />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#000" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#000" />
+
+    <!-- To run web application in full-screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- DNS -->
+    <link rel="dns-prefetch" href="http://www.studio4personalfitness.com" />
+
+    <!-- Preconnection -->
+    <link rel="preconnect" href="http://www.studio4personalfitness.com" />
+
+    <!-- Prefetching -->
+    <link rel="prefetch" href="image.png" />
+
+    <!-- Facebook -->
+    <meta property="og:url" content="http://www.studio4personalfitness.com" />
+    <meta property="og:type" content="site" />
+    <meta property="og:title" content="Studio4 - Personal Fitness" />
+    <meta
+      property="og:description"
+      content="Tendo como propósito oferecer o melhor em bem estar aos seus clientes, o Studio 4 tinha a necessidade de informar visualmente aos seus clientes que é a melhor opção quando o assunto é atividade física e saúde. Dentro das características encontradas nos serviços do Studio, foi desenvolvida uma nova identidade visual que transmite melhor ainda toda a estrutura oferecida."
+    />
+    <meta
+      property="og:image"
+      content="http://www.studio4personalfitness.com/assets/img/studio4_about.jpg"
+    />
+
+    <title>Studio4 - Personal Fitness</title>
 
     <link rel="stylesheet" href="./assets/css/studio.min.css" />
+
+    <!-- Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
   </head>
   <body>
     <div class="container-studio">
@@ -68,22 +182,62 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Home
+              <a class="nav-link" href="#sobre">
+                Sobre
                 <span class="sr-only">(Página atual)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destaques</a>
+              <a class="nav-link" href="#modalidades">Modalidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Preços</a>
+              <a class="nav-link" href="#galeria">Galeria</a>
+            </li>
+          </ul>
+
+          <ul class="nav-modalidades">
+            <li>
+              <img
+                src="./assets/img/modalidades_icons/aerobico.svg"
+                alt="Treinamento Aerobico"
+                class="img-fluid"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/img/modalidades_icons/size.svg"
+                alt="Redução de Medida"
+                class="img-fluid"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/img/modalidades_icons/pilates.svg"
+                alt="Pilates"
+                class="img-fluid"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/img/modalidades_icons/musculation.svg"
+                alt="Musculação"
+                class="img-fluid"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/img/modalidades_icons/cardio.png"
+                alt="Cardio"
+                class="img-fluid"
+              />
             </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <section id="hero">
+    <section id="hero">
+      <div class="container-studio">
         <div
           id="carouselStudio"
           class="carousel slide carousel-fade"
@@ -99,19 +253,49 @@
             <li data-target="#carouselStudio" data-slide-to="1"></li>
 
             <div class="whatsapp">
-              <a href="#!" target="blank">
+              <a
+                href="https://api.whatsapp.com/send?phone=5511980830174&text=Quero%20agendar%20minha%20aula%20cortesia."
+                target="blank"
+              >
                 <img
                   src="./assets/img/whatsapp_logo.svg"
                   alt="Agende sua Aula Cortesia via Whatsapp"
                   class="img-fluid"
                 />
+                <span>Agende sua Aula Cortesia</span>
               </a>
             </div>
           </ol>
+
           <div class="carousel-inner">
+            <ul class="carousel-links">
+              <li><a href="#contato">Contato</a></li>
+              <li>
+                <a href="https://www.facebook.com/studio4evoce" target="blank">
+                  <img
+                    src="./assets/img/facebook_logo.svg"
+                    alt="Facebook do Studio4"
+                    class="img-fluid"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/studio4evoce/"
+                  target="blank"
+                >
+                  <img
+                    src="./assets/img/instagram_logo.svg"
+                    alt="Instagram do Studio4"
+                    class="img-fluid"
+                  />
+                </a>
+              </li>
+            </ul>
+
             <div class="carousel-item active">
               <img
-                class="d-none d-md-block w-100 img-fluid carousel-image"
+                class="d-none d-md-block img-fluid carousel-image"
                 src="./assets/img/slider/treinamento_slider.jpg"
                 alt="Treinamento Funcional"
               />
@@ -125,14 +309,19 @@
                   físico, emagrecimento e aumento da força muscular.
                 </p>
 
-                <a href="#!" target="blank" class="btn btn-primary">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5511980830174&text=Quero%20agendar%20minha%20aula%20cortesia."
+                  target="blank"
+                  class="btn btn-primary"
+                >
                   Agendar Aula Cortesia
                 </a>
               </div>
             </div>
+
             <div class="carousel-item">
               <img
-                class="d-none d-md-block w-100 img-fluid carousel-image"
+                class="d-none d-md-block img-fluid carousel-image"
                 src="./assets/img/slider/pilates_slider.jpg"
                 alt="Pilates"
               />
@@ -146,16 +335,83 @@
                   fortalecimento e flexibilidade muscular.
                 </p>
 
-                <a href="#!" target="blank" class="btn btn-primary">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5511980830174&text=Quero%20agendar%20minha%20aula%20cortesia."
+                  target="blank"
+                  class="btn btn-primary"
+                >
                   Agendar Aula Cortesia
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="about" class="about">
+    <section id="sobre" class="about">
+      <div class="container-studio d-block d-md-none">
+        <div class="infos">
+          <h2>O Studio 4</h2>
+          <p>
+            Nós do Studio 4 trabalhamos com grupos reduzidos, com dias e
+            horários marcados, temos as modalidades de Treinamento Funcional,
+            Condicionamento Físico e Pilates - manhã, tarde e noite.
+          </p>
+
+          <div class="modalidades">
+            <div class="card bg-dark">
+              <img
+                src="./assets/img/modalidades_icons/aerobico.svg"
+                alt="Treinamento Aerobico"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card bg-dark">
+              <img
+                src="./assets/img/modalidades_icons/size.svg"
+                alt="Redução de Medida"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card bg-dark">
+              <img
+                src="./assets/img/modalidades_icons/pilates.svg"
+                alt="Pilates"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card bg-dark">
+              <img
+                src="./assets/img/modalidades_icons/musculation.svg"
+                alt="Musculação"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card bg-dark">
+              <img
+                src="./assets/img/modalidades_icons/cardio.png"
+                alt="Cardio"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=5511980830174&text=Quero%20agendar%20minha%20aula%20cortesia."
+            target="blank"
+            class="btn btn-primary"
+          >
+            Agendar Aula Cortesia
+          </a>
+        </div>
+      </div>
+
+      <div class="infos d-none d-md-block">
         <h2>O Studio 4</h2>
         <p>
           Nós do Studio 4 trabalhamos com grupos reduzidos, com dias e horários
@@ -198,7 +454,7 @@
 
           <div class="card bg-dark">
             <img
-              src="./assets/img/modalidades_icons/cardio.svg"
+              src="./assets/img/modalidades_icons/cardio.png"
               alt="Cardio"
               class="img-fluid"
             />
@@ -208,12 +464,14 @@
         <a href="#!" target="blank" class="btn btn-primary">
           Agendar Aula Cortesia
         </a>
-      </section>
+      </div>
+    </section>
 
-      <section class="modalidades-full">
+    <section class="modalidades-full">
+      <div class="container-studio">
         <h2>Modalidades</h2>
 
-        <div class="modalidades-fullinfo">
+        <div class="modalidades-fullinfo" id="modalidades">
           <div class="card">
             <div class="image d-none d-sm-block">
               <img
@@ -268,7 +526,7 @@
           </div>
         </div>
 
-        <div class="other-services">
+        <div class="other-services" id="servicos">
           <h2>Outros Serviços</h2>
 
           <div class="services">
@@ -298,9 +556,26 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer>
+    <section id="galeria" class="gallery container-studio d-none d-md-block">
+      <div class="image">
+        <img src="./assets/img/gallery/gallery_1.jpg" class="img-fluid" />
+      </div>
+      <div class="image">
+        <img src="./assets/img/gallery/gallery_2.jpg" class="img-fluid" />
+      </div>
+      <div class="image">
+        <img src="./assets/img/gallery/gallery_3.jpg" class="img-fluid" />
+      </div>
+      <div class="image">
+        <img src="./assets/img/gallery/gallery_4.jpg" class="img-fluid" />
+      </div>
+    </section>
+
+    <footer id="contato">
+      <div class="container-studio">
         <div class="infos">
           <div class="card">
             <h3>Informações</h3>
@@ -362,19 +637,35 @@
             </p>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
       $(document).ready(function() {
+        // Mobile Menu
         $("#nav-icon").click(function() {
           $(this).toggleClass("open");
         });
+
+        // Gallery
+        $(".gallery").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          dots: true
+        });
+
+        // Lazy Load Images
+        $("img").Lazy();
       });
     </script>
   </body>
