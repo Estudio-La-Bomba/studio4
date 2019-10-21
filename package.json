@@ -1,0 +1,12 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node-sass -watch --include-path scss scss/bootstrap.scss assets/css/studio.min.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
