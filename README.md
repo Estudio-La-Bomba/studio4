@@ -18,11 +18,10 @@ Studio4 Web Site
 [//]: # (Add the features of your project here:)
 This project was developed at [Estúdio La.Bomba] (https://www.estudiolabomba.com) with the following technologies:
 
-- 💅 **BootStrap**
--  **HTML**
+- 📘 **BootStrap**
+- 📃 **HTML**
 - 💅 **SASS**
 - 💹 **JavaScript**
-- 📁 **Postgres**
 
 ## 📝 License
 This project is under the MIT license. See the [LICENSE](https://github.com/mnzsss/gobarber-api/blob/master/LICENSE) for more information.
