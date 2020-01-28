@@ -29,9 +29,3 @@ This project is under the MIT license. See the [LICENSE](https://github.com/mnzs
 ---
 
 Made with ♥ by Gabriel Menezes 👋 [Get in touch!](https://www.linkedin.com/in/mnzs/)
-
-[nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/
-[vc]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
