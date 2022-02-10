@@ -7,6 +7,6 @@
     "start": "node-sass -watch --include-path scss scss/bootstrap.scss assets/css/studio.min.css --output-style compressed"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
